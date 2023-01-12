@@ -1,0 +1,59 @@
+body {
+    background-image:url("/assets/BG2.jpg");
+    background-position:center;
+    background-size:cover;
+    
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+    font-family: 'Dancing Script', cursive!important;
+  }
+  
+  .container1 {
+    margin-left: 10cm;
+      padding: 110px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #ffffff!important;
+      opacity: 1; /* Firefox */
+      font-size:18px!important;
+  }
+  .form-login {
+      background-color: rgba(255, 116, 116, 0.55);
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 15px;
+      border-color:#ffffff;
+      border-width: 5px;
+      color:rgb(255, 255, 255);
+      box-shadow:0 1px 0 #cfcfcf;
+  }
+  .form-control{
+      background:transparent!important;
+      color:rgb(246, 248, 245)!important;
+      font-size: 18px!important;
+  }
+  h1{
+      color:rgb(255, 255, 255)!important;
+  }
+ 
+  h4 { 
+   border:0 solid rgb(213, 0, 0); 
+   border-bottom-width:1px;
+   padding-bottom:10px;
+   text-align: center;
+  }
+  #userPassword{
+    text-align: center;
+  }
+  
+  .form-control {
+      border-radius: 10px;
+  }
+  .text-white { 
+      color: rgb(233, 182, 28)!important;
+  }
+  .wrapper {
+      text-align: center;
+  }

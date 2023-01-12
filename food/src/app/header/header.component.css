@@ -1,0 +1,11 @@
+
+     nav ul{
+        list-style-type:none;
+        margin:0;
+
+     }
+     nav ul li a {
+        padding: 1em;
+        display: inline-block;
+
+     }

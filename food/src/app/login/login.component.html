@@ -1,0 +1,28 @@
+<body>
+    
+<form (ngSubmit)="ngSubmit(f)" #f=ngForm>
+<div class="container1">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-4 text-center">
+            <h1 class='text-white'>Bienvenue</h1>
+              <div class="form-login"><br>
+                <h4>Login</h4>
+                <br>
+                <input type="text"  ngModel name ="nom" required #nom="ngModel"  id="userName" class="form-control input-sm chat-input" placeholder="username" />
+                <span style=color:black *ngIf="!nom.valid && nom.touched">Entrez le nom!</span>
+
+                <br><br>
+                <input type="password" ngModel name ="pass" required #nom="ngModel" id="userPassword" class="form-control input-sm chat-input" placeholder="password"/>
+                <span style=color:black *ngIf="!nom.valid && nom.touched">Entrez le password!</span>
+                <br><br>
+                <div class="alert alert-danger" *ngIf="errorMessage">{{errorMessage}}</div>
+                <div class="wrapper">
+                        <span class="group-btn">
+                            <input type="submit" [disabled]=!f.valid class="btn btn-danger btn-md" name ="envoyer"value="login"> <i class="fa fa-sign-in"></i>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
